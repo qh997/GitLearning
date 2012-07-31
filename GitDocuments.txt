@@ -1,2 +1,14 @@
 .git/index
     包含文件索引的目录树，记录文件名和文件的状态信息。
+.git/objects/
+    Git 对象库，保存文件内容。
+.git/refs/
+    保存引用的命名空间。
+.git/refs/heads/
+    分支。
+.git/logs/refs/heads/master
+    master 分支历史记录。
+.gitignore
+    忽略文件列表（共享式）。
+.git/info/exclude
+    忽略文件列表（独享式）。
